@@ -1,4 +1,4 @@
-# Group Optimization Project
+# Optimal Group Formation Project
 
 This paper explores the application of combinatorial optimization techniques to form optimal music artist collaborations under budget constraints. We evaluate four methods—brute force search, greedy algorithms, integer programming, and simulated annealing—to maximize group potential by analyzing artists’ skills, collaboration compatibility, and cost considerations. Using data from Spotify’s top 25 artists with the most monthly listeners, we demonstrate that simulated annealing achieves optimal results with significantly less computational expense than brute force methods, while greedy algorithms provide quick but suboptimal solutions. We compare two objective function formulations, L1 and L2 norms, to assess how they influence the composition and synergy of selected artist groups. Our findings show that the L2 formulation creates more synergistic groupings than the L1 formulation, providing better overall group selection by maximizing both individual skill contributions and collaborative potential, all while adhering to budget constraints.
 
